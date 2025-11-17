@@ -1,0 +1,3722 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#"
+     xml:base="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decrease-Glu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decrease-Glu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Biguanide"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decrease-Ins-Res -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decrease-Ins-Res">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_resistance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasBloodPressure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasBloodPressure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasComplication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasComplication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasDiagnosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasDiagnosis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasDisease">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasGender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasLab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasLab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasRecord -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasRecord">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasSymp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasSymp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Take -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Take">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#TreatDiab2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#TreatDiab2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Biguanide"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dopamine-2-Agonist"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-2-Diabetes-Mellitus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#TreatSympt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#TreatSympt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treats -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treats">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amylin_Mimetics"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-1-Diabetes-Mellitus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diastolic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diastolic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dose">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dosing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dosing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Formulations -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Formulations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Formulations"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">500</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Has-Glu-Risk-Level -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Has-Glu-Risk-Level">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Has-Risk-Level"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Has-Risk-Level -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Has-Risk-Level">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#NMTOKEN"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasBloodKetone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasBloodKetone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasOtherDisease -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HasOtherDisease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Height">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Initial-Dosing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Initial-Dosing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kind">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medication_Action -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medication_Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medication_Advantage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medication_Advantage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Range-Dosing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Range-Dosing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Smoke -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Smoke">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Systolic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Systolic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Abdominal-Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Abdominal-Pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acarbose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acarbose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acetylcholine-Mediated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acetylcholine-Mediated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acromegaly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acromegaly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hormonal_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Activity-of-Daily-Living -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Activity-of-Daily-Living">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acute_pancreatitis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acute_pancreatitis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Admelog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Admelog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Admelog-SoloStar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Admelog-SoloStar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Afrezza-Inhaled-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Afrezza-Inhaled-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Albiglutide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Albiglutide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Allergic-History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Allergic-History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Allergic_skin_reactions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Allergic_skin_reactions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alogliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alogliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amylin_Mimetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amylin_Mimetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Anaemia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Anaemia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Apidra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Apidra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#insulin-Glulisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Apidra-SoloStar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Apidra-SoloStar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#insulin-Glulisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Aspirin_for_heart_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Aspirin_for_heart_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Other-Drugs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Auto-Anti-Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Auto-Anti-Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bacterial-Infections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bacterial-Infections">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Biguanide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Biguanide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bile_acid_sequestrants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bile_acid_sequestrants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bladder-Dysfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bladder-Dysfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bloating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bloating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Ketone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Ketone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure-Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure-Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blurred-Vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blurred-Vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Eye-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bromocriptine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bromocriptine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dopamine-2-Agonist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Calendula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Calendula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin-metformin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin-metformin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Candida_yeast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Candida_yeast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cardiovasculair-Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cardiovasculair-Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Catecholamine-Mediated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Catecholamine-Mediated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Chest_infections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Chest_infections">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Colesevelam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Colesevelam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bile_acid_sequestrants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Concentrated-Regular-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Concentrated-Regular-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Conium_Hemlock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Conium_Hemlock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Constipation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Constipation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin-Saxagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin-Saxagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decreased-Testosterone-Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Decreased-Testosterone-Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Insulin-Dependent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Insulin-Dependent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Non-Insulin-Dependent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Non-Insulin-Dependent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetic-Neuropathy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetic-Neuropathy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetic_ketoacidosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetic_ketoacidosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis-result1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis-result1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis-result2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis-result2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diarrhea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diarrhea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dizziness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dizziness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dizziness_on_standing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dizziness_on_standing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dopamine-2-Agonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dopamine-2-Agonist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Drowsiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Drowsiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dry-Mouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dry-Mouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dulaglutide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dulaglutide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empagliflozin-Linagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empagliflozin-Linagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empaglifozin-linagliptin-metmorfin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empaglifozin-linagliptin-metmorfin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Ertugliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Ertugliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Excessive-Thirst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Excessive-Thirst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Excessive-Urination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Excessive-Urination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide_extended-release -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide_extended-release">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Eye-Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Eye-Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#FPG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#FPG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fatigue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fatigue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp-FlexTouch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp-FlexTouch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp-PenFill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fiasp-PenFill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Foot-Symprom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Foot-Symprom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Frequent-Vaginal-Infections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Frequent-Vaginal-Infections">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Genes_and_family_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Genes_and_family_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliclazide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliclazide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride-pioglitazone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride-pioglitazone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide-metformin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide-metformin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide_ER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide_ER">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide-metformin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide-metformin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HBA1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HBA1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Headache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Headache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Heart-Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Heart-Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hematological-Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hematological-Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High-Blood-Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High-Blood-Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diastolic"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Systolic"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">140</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High_blood_pressure_medications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High_blood_pressure_medications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Other-Drugs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High_levels_of_cholesterol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#High_levels_of_cholesterol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hormonal_Conditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hormonal_Conditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog-Junior-KwikPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog-Junior-KwikPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog-KwikPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humalog-KwikPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-R-U-100 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-R-U-100">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hyperosmolarity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hyperosmolarity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypertension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypertension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hyperthyroidism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hyperthyroidism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hormonal_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypoglycaemia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypoglycaemia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypoglycemia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypoglycemia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hypos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Indigestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Indigestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insomnia_and_fatigue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insomnia_and_fatigue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Injectable-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Degludec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Degludec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Detemir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Detemir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine-Yfgn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine-Yfgn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Intermediate-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro-Aabc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro-Aabc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Measurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Intermediate-Acting-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Intermediate-Acting-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Irritability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Irritability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Itchy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Itchy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kidney-Function-Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kidney-Function-Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lack_of_exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lack_of_exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lack_of_insulin_production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lack_of_insulin_production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lactic_acidosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lactic_acidosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Leg-Amputation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Leg-Amputation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Light-Exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Light-Exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exercise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Limited-Vascular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Limited-Vascular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Examination-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin-Empagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin-Empagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lipid-Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lipid-Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lipoatrophic-Diabetes-Mellitus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lipoatrophic-Diabetes-Mellitus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Non-Insulin-Dependent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liraglutide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liraglutide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver-Function-Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver-Function-Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lab-Tests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver_inflammation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver_inflammation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver_inflammation-causing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liver_inflammation-causing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lixisenatide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lixisenatide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Llung_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Llung_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Long-Acting-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Loss_of_appetite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Loss_of_appetite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Low-Blood-Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Low-Blood-Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diastolic"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Systolic"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">90</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lyumjev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lyumjev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro-Aabc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lyumjev-KwikPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lyumjev-KwikPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Lispro-Aabc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Non-Insulin-Dependent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#MODY-Diabetes-Mellitus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medical-History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medical-History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications_for_high_cholesterol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications_for_high_cholesterol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Other-Drugs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metallic_taste_mouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metallic_taste_mouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Biguanide"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Alogliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Alogliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Canagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Canagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Dapagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Dapagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Empagliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Empagliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glipizide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glipizide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glyburide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glyburide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Linagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Linagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Pioglitazone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Pioglitazone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Repaglinide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Repaglinide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Rosiglitazone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Rosiglitazone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Saxagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Saxagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Sitagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Sitagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metmorfin-Ertugliflozin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metmorfin-Ertugliflozin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Miglitol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Miglitol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Moderate-Exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Moderate-Exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exercise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Muscle_aches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Muscle_aches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nateglinide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nateglinide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nausea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nausea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-glucosidase_inhibitors_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Incretin_mimetics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neonatal-diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neonatal-diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Insulin-Dependent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nerve_pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nerve_pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neuroglycopenic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neuroglycopenic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neurologic-examinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Neurologic-examinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Examination-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#New-Born-Baby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#New-Born-Baby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nocturia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nocturia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Non-Diabetes-Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Non-Diabetes-Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Normal-Blood-Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Normal-Blood-Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Pressure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diastolic"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Systolic"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">120</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Normal-Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Normal-Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-FlexPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-FlexPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-FlexTouch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-FlexTouch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-PenFill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#NovoLog-PenFill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-FlexPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-FlexPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-FlexPen-ReliOn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-FlexPen-ReliOn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-ReliOn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-R-ReliOn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness_in_the_feet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness_in_the_feet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Foot-Symprom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness_in_the_hand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Numbness_in_the_hand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#OGTT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#OGTT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Obesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Obesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Obesity-C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Obesity-C">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Other-Drugs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Other-Drugs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Over-Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Over-Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Overweight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Overweight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Record">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Patient-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Persistent-Hunger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Persistent-Hunger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Phosphoric_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Phosphoric_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Examination-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Examination-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-alogliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-alogliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-glimepiride -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-glimepiride">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-metformin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-metformin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Plumbum_Lead -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Plumbum_Lead">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polydipsia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polydipsia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polyphagia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polyphagia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polyuria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Polyuria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Poor-Diet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Poor-Diet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pramlintide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pramlintide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amylin_Mimetics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandial_glucose_regulators_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Causes-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#RPG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#RPG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Red-rash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Red-rash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ReliOn-NovoLog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ReliOn-NovoLog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ReliOn-NovoLog-FlexPen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ReliOn-NovoLog-FlexPen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Aspart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Repaglinide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Repaglinide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Retinopathy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Retinopathy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rosiglitazone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rosiglitazone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT_2_inhibitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Saxagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Saxagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Semaglutide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Semaglutide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Serum-Fructosamine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Serum-Fructosamine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Blood-Glucose-Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Short-Acting-Insulin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin-Simvastatin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin-Simvastatin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#DPP-4-Inhibitors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Skin-Sores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Skin-Sores">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Skin_rash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Skin_rash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Slow-Wound-Healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Slow-Wound-Healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Stomach-Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Stomach-Pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Strenuous-Exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Strenuous-Exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exercise"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Stroke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Side_Effects_of_diabetes_medication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Syzygium_jambolanum_or_S._cumini_black_plum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Syzygium_jambolanum_or_S._cumini_black_plum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tachycardia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tachycardia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thiazolidinediones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oral-Antidiabetic-Medications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thirst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Thirst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tinnitus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tinnitus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tirzepatide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tirzepatide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#GLP-1_Receptor_Agonists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tolbutamide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tolbutamide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Treatment-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-1-Diabetes-Mellitus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-1-Diabetes-Mellitus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Insulin-Dependent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-2-Diabetes-Mellitus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-2-Diabetes-Mellitus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Diabetes-Mellitus-Insulin-Dependent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Type-Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Under-Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Under-Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Body_Mass_Index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BMI-Value"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Uranium_nitricum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Uranium_nitricum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Homeopathic-Remedies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Urinary_tract_infections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Urinary_tract_infections">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#SGLT2_inhibitors_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vision-Loss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vision-Loss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vomiting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Vomiting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Gliptin_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Walking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Walking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Physical-Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Water_retention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Water_retention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight-Gain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight-Gain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sulfonylureas_side-effects"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight-Loss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight-Loss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symptoms-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight_gain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Weight_gain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Meglitinides_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Worsening_of_osteoporosis_and_bone_fractures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Worsening_of_osteoporosis_and_bone_fractures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glitazone_side-effects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#insulin-Glulisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#insulin-Glulisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rapid-Acting-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#kidney-Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#kidney-Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Complications-Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Hormonal_Conditions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_aspart_protamine/insulin_aspart_70/30_(NovoLog_Mix_70/30,_NovoLog_Mix_70/30_FlexPen) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_aspart_protamine/insulin_aspart_70/30_(NovoLog_Mix_70/30,_NovoLog_Mix_70/30_FlexPen)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_isophane/regular_insulin_70/30_(Humulin_70/30,_Humulin_70/30_KwikPen,_Novolin_70/30,_Novolin_70/30_FlexPen,_Novolin_70/30_FlexPen_ReliOn) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_isophane/regular_insulin_70/30_(Humulin_70/30,_Humulin_70/30_KwikPen,_Novolin_70/30,_Novolin_70/30_FlexPen,_Novolin_70/30_FlexPen_ReliOn)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_lispro_protamine/insulin_lispro_50/50_(Humalog_Mix_50/50,_Humalog_Mix_50/50_KwikPen) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_lispro_protamine/insulin_lispro_50/50_(Humalog_Mix_50/50,_Humalog_Mix_50/50_KwikPen)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_lispro_protamine/insulin_lispro_75/25_(Humalog_Mix_75/25,_Humalog_Mix_75/25_KwikPen) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin_lispro_protamine/insulin_lispro_75/25_(Humalog_Mix_75/25,_Humalog_Mix_75/25_KwikPen)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mixed-Insulin"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acarbose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acarbose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors"/>
+        <Medication_Action>Slow the body&apos;s ability to breakdown starches and some sugars</Medication_Action>
+        <Medication_Advantage>Don&apos;t cause weight gain, Don&apos;t cause blood sugar levels to drop too low unless you take them with insulin or a sulfonylurea</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ActoPlus_Met -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#ActoPlus_Met">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Pioglitazone"/>
+        <Dose>once or twice daily</Dose>
+        <Formulations>15 mg/500 mg, 15 mg/850 mg (white to off-white) oblong tablets</Formulations>
+        <Initial-Dosing>15 mg/500 mg or 15 mg/850 mg once or twice daily</Initial-Dosing>
+        <Range-Dosing>up to 45 mg/2550 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actoplus_Met -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actoplus_Met">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actoplus_Met_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actoplus_Met_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Actos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-glimepiride"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>15 mg, 30 mg, 45 mg 
+(white to off-white) tablets</Formulations>
+        <Initial-Dosing>15-30 mg daily</Initial-Dosing>
+        <Range-Dosing>15-45 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Adylyxin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Adylyxin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lixisenatide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amaryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Amaryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride"/>
+        <Formulations>1 mg, 2 mg, 4 mg tablets</Formulations>
+        <Initial-Dosing>1-2 mg daily</Initial-Dosing>
+        <Initial-Dosing>Taken once daily</Initial-Dosing>
+        <Range-Dosing>1-8 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Avandamet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Avandamet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Rosiglitazone"/>
+        <Dose>Taken twice daily</Dose>
+        <Formulations>2 mg/500 mg (pale pink), 2 mg/1000 mg (yellow), 4 mg/500 mg (orange), 4 mg/1000 mg (pink) oval tablets</Formulations>
+        <Initial-Dosing>2 mg/5000 mg once or twice daily</Initial-Dosing>
+        <Range-Dosing>up to 8 mg/2000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Avandia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Avandia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Rosiglitazone"/>
+        <Dose>Taken once or twice daily</Dose>
+        <Formulations>2 mg (pink), 4 mg (orange), 8 mg 
+(red-brown) tablets</Formulations>
+        <Initial-Dosing>4 mg daily</Initial-Dosing>
+        <Medication_Action>Improve cells&apos; sensitivity to insulin, Limit the liver&apos;s ability to make and release sugar</Medication_Action>
+        <Medication_Advantage>May slightly increase high-density lipoprotein (HDL) cholesterol, the &quot;good&quot; cholesterol</Medication_Advantage>
+        <Range-Dosing>4-8 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Axroplus_Met_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Axroplus_Met_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Pioglitazone"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>15 mg/1000 mg, 30 mg/1000 mg (white to off-white) round tablets</Formulations>
+        <Initial-Dosing>15 mg/1000 mg or 30 mg/1000 mg once daily</Initial-Dosing>
+        <Range-Dosing>up to 45 mg/2000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Basaglar-KwikPen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Basaglar-KwikPen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BasketBall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#BasketBall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bydureon_Bcise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bydureon_Bcise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide_extended-release"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Byetta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Byetta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Exenatide"/>
+        <Dose>Taken twice daily</Dose>
+        <Formulations>5 mcg per dose and 10 mcg per dose 
+Injected under the skin (subcutaneous/SQ)
+Available as a pen device</Formulations>
+        <Initial-Dosing>5 mcg SQ twice daily</Initial-Dosing>
+        <Medication_Action>Cause the release of insulin as blood sugar levels are rising, May be used with metformin, basal insulin or a sulfonylurea</Medication_Action>
+        <Medication_Advantage>May decrease hunger, May lead to weight loss</Medication_Advantage>
+        <Range-Dosing>up to 10 mcg SQ twice daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cooking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cooking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Activity-of-Daily-Living"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cycloset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cycloset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bromocriptine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Duetact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Duetact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glimepiride-pioglitazone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Farxiga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Farxiga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin"/>
+        <Formulations>5mg (yellow, round shaped), 10mg (yellow, diamond shaped) tablets</Formulations>
+        <Initial-Dosing>5mg once daily</Initial-Dosing>
+        <Range-Dosing>up to 10mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#FootBall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#FootBall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide_XL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide_XL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide_ER"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucophage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucophage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+        <Dose>Taken two or three times daily</Dose>
+        <Formulations>Glucophage: 500 mg, 850 mg, 1000 mg tablets</Formulations>
+        <Initial-Dosing>500 mg twice daily or 850 mg once daily</Initial-Dosing>
+        <Medication_Action>Limit the liver&apos;s ability to release sugar    Improve cells&apos; sensitivity to insulin</Medication_Action>
+        <Medication_Advantage>Very effective, May lead to minor weight loss, Low cost</Medication_Advantage>
+        <Range-Dosing>500-2550 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucotrol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucotrol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide"/>
+        <Dose>Taken once or twice (if &gt;15 mg) daily</Dose>
+        <Formulations>5 mg, 10 mg tablets</Formulations>
+        <Initial-Dosing>5 mg daily</Initial-Dosing>
+        <Range-Dosing>2.5-40 mg2</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucotrol_XL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucotrol_XL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glipizide"/>
+        <Dose>Taken once or twice (if &gt;15 mg) daily</Dose>
+        <Formulations>2.5 mg, 5 mg, 10 mg tablets</Formulations>
+        <Initial-Dosing>5 mg daily</Initial-Dosing>
+        <Medication_Action>Trigger the release of insulin from the pancrea</Medication_Action>
+        <Medication_Advantage>Low cost, Effective in lowering blood sugar</Medication_Advantage>
+        <Range-Dosing>20 mg for XL</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucovance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glucovance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glyburide"/>
+        <Dose>Taken once or twice daily</Dose>
+        <Formulations>1.25 mg/250 mg, 2.5 mg/500 mg, 5 mg/500 mg tablets</Formulations>
+        <Initial-Dosing>1.25 mg/250 mg once or twice daily</Initial-Dosing>
+        <Range-Dosing>up to – 20/2000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glynase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glynase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glynase_PresTab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glynase_PresTab">
+        <Dose>Taken once or twice (if &gt;6 mg) daily</Dose>
+        <Formulations>1.5 mg, 3 mg, 4.5 mg, 6 mg</Formulations>
+        <Initial-Dosing>1.5-3 mg daily</Initial-Dosing>
+        <Range-Dosing>0.75-12 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyxambi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyxambi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin-Empagliflozin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HandBall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#HandBall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-N-KwikPen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-N-KwikPen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-N-U-100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-N-U-100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-R-U-500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin-R-U-500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Concentrated-Regular-Insulin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin_R_U-500_KwikPen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Humulin_R_U-500_KwikPen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Concentrated-Regular-Insulin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokamet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokamet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Canagliflozin"/>
+        <Formulations>50mg/500mg (white), 50mg/1000mg (beige), 150mg/500mg
+(yellow), 150mg/1000mg (purple) capsule-shaped film-coated tablets</Formulations>
+        <Initial-Dosing>50mg/500mg or 50mg/1000mg</Initial-Dosing>
+        <Range-Dosing>up to 300mg/2000mg Taken in 2 divided doses</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokamet_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokamet_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin-metformin"/>
+        <Medication_Action>Limit the kidneys&apos; ability to take in sugar, which increases the amount of sugar that leaves the body in urine</Medication_Action>
+        <Medication_Advantage>May lead to weight loss, May lower blood pressure</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Invokana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Canagliflozin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>100mg (yellow, capsule-shaped), 300mg (white, capsule-shaped) tablets</Formulations>
+        <Initial-Dosing>100mg daily</Initial-Dosing>
+        <Range-Dosing>100-300mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Janumet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Janumet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Sitagliptin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Janumet_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Janumet_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Sitagliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>50 mg/500 mg (light blue), 50 mg/1000 mg (light green), 100
+mg/ 1000 mg (blue) oval tablets</Formulations>
+        <Initial-Dosing>100 mg/1000 mg daily</Initial-Dosing>
+        <Range-Dosing>up to 100 mg/2000 mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Januvia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Januvia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>25 mg (pink), 50 mg (light beige), 
+100 mg (beige) tablets</Formulations>
+        <Initial-Dosing>100 mg daily</Initial-Dosing>
+        <Range-Dosing>25-100 mg daily25-100 mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jardiance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jardiance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empagliflozin"/>
+        <Formulations>10mg (pale, beige, round), 25mg (pale, beige oblong) tablets</Formulations>
+        <Initial-Dosing>10mg once daily</Initial-Dosing>
+        <Range-Dosing>up to 25mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jentadueto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jentadueto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Linagliptin"/>
+        <Formulations>2.5mg/500mg (light yellow), 2.5mg/850mg (light orange, oval),
+2.5mg/1000mg (light pink) oval tablets</Formulations>
+        <Initial-Dosing>2.5mg/500mg twice daily with food</Initial-Dosing>
+        <Range-Dosing>up to 2.5mg/1000mg twice daily with food</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jentadueto_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Jentadueto_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Linagliptin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Juvisync -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Juvisync">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Sitagliptin-Simvastatin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kazano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kazano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Alogliptin"/>
+        <Formulations>12.5mg/500mg (pale yellow), 12.5mg/1000mg (pale yellow) oblong tablets</Formulations>
+        <Initial-Dosing>12.5mg/500mg once or twice daily</Initial-Dosing>
+        <Range-Dosing>up to 25/2000 Taken twice daily with food</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kombiglyze_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Kombiglyze_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Saxagliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>5 mg/500 mg (light brown to brown), 5 mg/1000 mg (pink), 2.5 mg/1000 mg (pale yellow to light yellow) capsule-shaped tablets</Formulations>
+        <Initial-Dosing>5 mg/500 mg or 5 mg/1000 mg once daily</Initial-Dosing>
+        <Range-Dosing>up to 5 mg / 2000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lantus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lantus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lantus-SoloStar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Lantus-SoloStar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Levemir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Levemir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Detemir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metaglip -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metaglip">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Glipizide"/>
+        <Dose>Taken once or twice daily</Dose>
+        <Formulations>2.5 mg/250 mg, 2.5mg/500 mg, 5mg/500 mg tablets</Formulations>
+        <Initial-Dosing>2.5 mg/250 mg daily or 2.5mg/500 mg twice daily</Initial-Dosing>
+        <Range-Dosing>up to 20/2000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Micronase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Micronase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Glyburide"/>
+        <Dose>Taken once or twice daily</Dose>
+        <Formulations>1.25 mg, 2.5 mg, 5 mg tablets</Formulations>
+        <Initial-Dosing>2.5-5 mg daily</Initial-Dosing>
+        <Range-Dosing>1.25-20 mg2</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Migitol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Migitol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alpha-Glucosidase-Inhibitors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mounjaro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Mounjaro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tirzepatide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nesina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nesina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Alogliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>6.25mg (light pink), 12.5mg (yellow), 25mg (light red) tablets</Formulations>
+        <Initial-Dosing>25mg PO daily</Initial-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-FlexPen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-FlexPen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-FlexPen-ReliOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-FlexPen-ReliOn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-ReliOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Novolin-N-ReliOn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Isophane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Onglyza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Onglyza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Saxagliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>2.5 mg (pale to light yellow), 5 mg (pink) tablets</Formulations>
+        <Initial-Dosing>2.5 or 5 mg daily</Initial-Dosing>
+        <Medication_Action>Cause the release of insulin when blood sugar is rising
+Limit the liver&apos;s ability to release glucose</Medication_Action>
+        <Medication_Advantage>Don&apos;t cause weight gain
+Don&apos;t cause blood sugar levels to drop too low when used alone or with metformin</Medication_Advantage>
+        <Range-Dosing>2.5-5 mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Orinase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Orinase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tolbutamide"/>
+        <Dose>1000-2000 mg daily</Dose>
+        <Formulations>500 mg tablets</Formulations>
+        <Initial-Dosing>1000-2000 mg daily</Initial-Dosing>
+        <Range-Dosing>250-3000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oseni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Oseni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pioglitazone-alogliptin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Ozempic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Ozempic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Semaglutide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Parlodel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Parlodel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Bromocriptine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#PrandiMet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#PrandiMet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Repaglinide"/>
+        <Dose>Taken twice or three times daily</Dose>
+        <Initial-Dosing>1 mg/500 mg twice daily</Initial-Dosing>
+        <Range-Dosing>10 mg/2500 mg, Max per dose 
+4 mg/1000 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Prandin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Repaglinide"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Precose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Precose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Acarbose"/>
+        <Dose>Taken three times daily</Dose>
+        <Formulations>25 mg, 50 mg, 100 mg tablets</Formulations>
+        <Initial-Dosing>25 mg three times daily</Initial-Dosing>
+        <Range-Dosing>75-300 mg (max 150 mg if &lt;60 kg)</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Qtern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Qtern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dapagliflozin-Saxagliptin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Riomet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Riomet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin"/>
+        <Dose>Taken two or three times daily</Dose>
+        <Formulations>liquid, 500 mg/5m</Formulations>
+        <Initial-Dosing>500 mg twice daily or 850 mg once daily</Initial-Dosing>
+        <Range-Dosing>500-2550 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Saxenda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Saxenda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liraglutide"/>
+        <Medication_Action>Cause the release of insulin as blood sugar levels are rising
+May be used with metformin, basal insulin or a sulfonylurea</Medication_Action>
+        <Medication_Advantage>May decrease hunger, May lead to weight loss</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Segluromet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Segluromet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metmorfin-Ertugliflozin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Semglee-Yfgn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Semglee-Yfgn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine-Yfgn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Starlix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Starlix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Nateglinide"/>
+        <Dose>Taken three times daily</Dose>
+        <Formulations>60 mg (pink), 120 mg (yellow) tablets</Formulations>
+        <Initial-Dosing>120 mg three times daily</Initial-Dosing>
+        <Medication_Action>Trigger the release of insulin from the pancreas</Medication_Action>
+        <Medication_Advantage>Work quickly</Medication_Advantage>
+        <Range-Dosing>180-360 mg</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Steglatro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Steglatro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Ertugliflozin"/>
+        <Medication_Action>Limit the kidneys&apos; ability to take in sugar, which increases the amount of sugar that leaves the body in urine</Medication_Action>
+        <Medication_Advantage>May lead to weight loss, May lower blood pressure</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symlin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Symlin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Pramlintide"/>
+        <Medication_Action>Help regulate blood sugar, Slow food moving through the stomach, Used with insulin shots</Medication_Action>
+        <Medication_Advantage>May decrease hunger, May lead to minor weight loss</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Synjardy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Synjardy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Empagliflozin"/>
+        <Formulations>5mg/500mg (orange yellow), 5mg/1000mg (brownish yellow), 12.5mg/500mg (pale brownish purple), 12.5mg/1000mg (dark brownish purple) oval film-coated tablet</Formulations>
+        <Initial-Dosing>5mg/500mg or 5mg/1000mg</Initial-Dosing>
+        <Range-Dosing>up to 25mg/2000mg Taken in 2 divided doses</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tanzeum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tanzeum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Albiglutide"/>
+        <Formulations>30mg or 50mg per dose
+Injected under the skin (subcutaneous/SQ)
+Requires reconstitution
+Available in dose-specific single-dose pen devices</Formulations>
+        <Initial-Dosing>30mg once weekly</Initial-Dosing>
+        <Range-Dosing>can increase to 50mg once weekly if inadequate response</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Toujeo-Max-SoloStar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Toujeo-Max-SoloStar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Toujeo-SoloStar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Toujeo-SoloStar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Glargine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tradjenta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tradjenta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Linagliptin"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>5mg (light red) tablet</Formulations>
+        <Initial-Dosing>5 mg daily</Initial-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tresiba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tresiba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Degludec"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tresiba-FlexTouch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Tresiba-FlexTouch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Insulin-Degludec"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Trijardy_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Trijardy_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Empaglifozin-linagliptin-metmorfin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Trulicity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Trulicity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Dulaglutide"/>
+        <Formulations>0.75 mg or 1.5 mg per dose
+Injected under the skin (subcutaneous/SQ)
+Available in dose-specific, single-dose pen devices</Formulations>
+        <Initial-Dosing>0.75 mg once weekly</Initial-Dosing>
+        <Medication_Action>Cause the release of insulin as blood sugar levels are rising, May be used with metformin, basal insulin or a sulfonylurea</Medication_Action>
+        <Medication_Advantage>May decrease hunger, May lead to weight loss</Medication_Advantage>
+        <Range-Dosing>may increase up to 1.5 mg once weekly if inadequate response</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Victoza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Victoza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Liraglutide"/>
+        <Dose>Taken once daily</Dose>
+        <Formulations>3 mL pen that delivers doses of 0.6 mg, 1.2 mg, or 1.8 mg 
+Injected under the skin (subcutaneous/SQ)
+Available as a pen device</Formulations>
+        <Initial-Dosing>0.6 mg SQ once daily</Initial-Dosing>
+        <Range-Dosing>up to 1.8 mg SQ once daily</Range-Dosing>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Welchol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Welchol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Colesevelam"/>
+        <Medication_Action>Lower cholesterol and have a small effect in lowering blood sugar when used with other diabetes medications</Medication_Action>
+        <Medication_Advantage>Likely safe for people with liver problems</Medication_Advantage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Xigduo_XR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Xigduo_XR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Metformin-Dapagliflozin"/>
+        <Formulations>5mg/500mg (orange), 5mg/1000mg (pink to dark pink),
+10mg/500mg (pink), 10mg/1000mg (yellow to dark yellow) oval film-coated tablet</Formulations>
+        <Initial-Dosing>base on patient’s current regimen</Initial-Dosing>
+        <Range-Dosing>up to 10mg/2000mg daily</Range-Dosing>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
